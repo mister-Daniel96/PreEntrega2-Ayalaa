@@ -80,6 +80,7 @@ body {
 
 .hero__menu li {
     margin: 8px 25px;
+    transition: 0.2s;
 }
 
 .hero__menu li a {
@@ -88,9 +89,11 @@ body {
     font-weight: bold;
     padding: 2px 4px;
     border: none;
-    transition: 0.3s;
+   
 }
-
+.hero__menu li:hover{
+    border-bottom: 2px solid white;
+}
 /* .hero__menu li a:hover {
  
     border-bottom: 2px solid red;
